@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Sellers - Florence Perfumes</title>
+  <style>
+    /* Use the same styles as in your main page */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+    .navbar, .footer {
+      background-color: #e6f0ff;
+    }
+    /* Add more styles as needed */
+  </style>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1 class="logo">florence</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main style="padding: 20px; text-align: center;">
+    <h2>Best Sellers</h2>
+    <img src="2.png" alt="Best Sellers Page" style="width: 100%; max-width: 1200px; border-radius: 8px;">
+  </main>
+
+  <footer style="background-color: #e6f0ff; padding: 20px 0; text-align: center;">
+    <div style="display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+      <!-- Left Section -->
+      <div style="text-align: left;">
+        <h4 style="margin-bottom: 10px;">FAQs</h4>
+        <p style="margin: 0;">Shipping and returns</p>
+      </div>
+      <!-- Center Logo -->
+      <div>
+        <h1 style="font-family: 'Georgia', serif; font-size: 24px; margin: 0;">florence</h1>
+        <p style="margin: 5px 0 15px;">Eau de Parfum</p>
+        <div style="display: flex; gap: 15px; justify-content: center;">
+          <a href="https://www.instagram.com/florenceperfumes.ph/?hl=en" target="_blank" style="text-decoration: none; color: #333;">
+            <img src="1.png" alt="Instagram" style="width: 30px;">
+          </a>
+          <a href="https://www.tiktok.com/@florenceperfumes.ph" target="_blank" style="text-decoration: none; color: #333;">
+            <img src="3.png" alt="TikTok" style="width: 30px;">
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61550501684024" target="_blank" style="text-decoration: none; color: #333;">
+            <img src="2.png" alt="Facebook" style="width: 30px;">
+          </a>
+        </div>
+        <p style="margin-top: 15px;">© 2024, Florence</p>
+      </div>
+      <!-- Right Section -->
+      <div style="text-align: right;">
+        <h4 style="margin-bottom: 10px;">Get the latest updates</h4>
+        <a href="REGISTRATION.html" style="text-decoration: none;">
+          <div style="display: flex; gap: 10px; align-items: center; cursor: pointer; border: 1px solid #ccc; border-radius: 5px; padding: 10px; width: 200px; justify-content: space-between; background-color: white;">
+            <span style="color: #aaa; font-size: 14px;">Your email</span>
+            <span style="font-weight: bold; color: #333;">&#x203A;</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
